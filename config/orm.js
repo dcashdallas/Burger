@@ -10,10 +10,10 @@ connection.connect(function (err) {
 
 var orm = {
 
-    // selectAll()
+    // setting up 'selectAll()' method 
     selectAll: function (callback) {
 
-        // Run MySQL Query
+
         connection.query('SELECT * FROM burgers', function (err, result) {
             if (err) throw err;
             callback(result);

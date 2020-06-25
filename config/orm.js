@@ -8,5 +8,19 @@ connection.connect(function (err) {
     console.log('connected as id ' + connection.threadId);
 });
 
+var orm = {
+
+    // selectAll()
+    selectAll: function (callback) {
+
+        // Run MySQL Query
+        connection.query('SELECT * FROM burgers', function (err, result) {
+            if (err) throw err;
+            callback(result);
+        });
+
+    },
+
+};
 
 module.exports = orm;

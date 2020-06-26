@@ -8,6 +8,14 @@ var burger = {
         });
     },
 
+    insertOne: function (burger_name, callback) {
+        orm.insertOne(burger_name, function (res) {
+            callback(res);
+        });
+    },
+
+
+
 };
 
 module.exports = burger;

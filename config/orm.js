@@ -34,6 +34,16 @@ var orm = {
         });
 
     },
+
+    updateOne: function (burgerID, callback) {
+
+        // Run MySQL Query
+        connection.query('UPDATE burgers SET ? WHERE ?', [{ devoured: true }, { id: burgerID }], function (err, result) {
+            if (err) throw err;
+            callback(result);
+        });
+
+    }
 };
 
 module.exports = orm;

@@ -4,4 +4,8 @@ var router = express.Router();
 
 var burger = require("../models/burger.js");
 
+router.get('/', function (req, res) {
+    res.redirect('/index');
+});
+
 module.exports = router;

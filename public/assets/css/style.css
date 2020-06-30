@@ -1,11 +1,20 @@
 body {
     background-color: #f4c242;
+    background-image: url("/assets/images/Bob-Burgers-Background.jpg");
+    background-repeat: contain;
+    background-size: 100% 100%;
+    
   }
   
   
   
-  .red_font {
-    color: #bc001f;
+  .font {
+    color: white;
+    border-style:solid;
+    border-width:10px;  
+    border-color: rgb(65, 64, 64);
+    background: grey;
+    font-family: cursive;
   }
   
   .tiny_text {

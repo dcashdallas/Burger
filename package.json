@@ -1,27 +1,26 @@
 {
-  "name": "Burger",
+  "name": "burger",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "4.1.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dcashdallas/Burger.git"
+    "url": ""
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dcashdallas/Burger/issues"
-  },
-  "homepage": "https://github.com/dcashdallas/Burger#readme",
+  "homepage": "",
   "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^4.0.4",
-    "mysql": "^2.18.1",
-    "stack": "^0.1.0"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.6",
+    "mysql": "^2.12.0"
   }
 }

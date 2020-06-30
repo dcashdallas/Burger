@@ -1,16 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
-    <title>MVC With Cats!</title>
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="/assets/js/burgers.js"></script>
+    <title>Beefsquatch's Burgers of the Day!</title>
+    <link rel="icon" href="/assets/images/beefsquatch.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
-    {{{ body }}}
+
+    <div class="container">
+
+
+        <center>
+            <h1 class="red_font">Beefsquatch's Burger of the Day!<small class="tiny_text"></small></h1>
+        </center>
+
+        <br>
+
+        <center>
+            <div class="row">
+                <img src="/assets/images/beefsquatch.jpg" width="500" height="400">
+            </div>
+        </center>
+        <br>
+
+
+        <!-- Content from index.handlebars -->
+        {{{body}}}
+
+
+        <br><br>
+
+        <form action=" burger/create" method="POST">
+
+            <div class="row">
+                <div class="col-md-3"></div>
+
+                <div class="form-group col-md-6">
+                    <center><label for="new_burger" class="red_font">Create Your Own Burger!</label>
+                    </center>
+                    <textarea class="form-control" columns="8" rows="4" id="new_burger" name="burger_name"></textarea>
+                </div>
+
+                <div class="col-md-3"></div>
+            </div>
+
+            <center>
+                <button id="submit-button" type="submit" class="btn btn-danger">Order Up!</button>
+            </center>
+
+        </form>
+
+        <br>
+
+        <center>
+            <div class="row">
+                <img src="/assets/images/bobsburger.gif">
+            </div>
+        </center>
+        <br>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+
+
 </body>
 
 </html>

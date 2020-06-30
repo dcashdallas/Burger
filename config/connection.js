@@ -9,7 +9,8 @@ else {
         host: '127.0.0.1',
         user: 'root',
         password: 'Sublime#96',
-        database: 'burgers_db'
+        database: 'burgers_db',
+        port: 3000
     });
 }
 

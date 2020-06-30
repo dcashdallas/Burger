@@ -20,5 +20,3 @@ app.use('/', router);
 
 var port = process.env.PORT || 3207;
 app.listen(port);
-
-process.exit(0)

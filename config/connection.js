@@ -6,7 +6,7 @@ if (process.env.burger_db) {
 }
 else {
     connection = mysql.createConnection({
-        host: 'localhost',
+        host: '127.0.0.1',
         user: 'root',
         password: 'Sublime#96',
         database: 'burgers_db'

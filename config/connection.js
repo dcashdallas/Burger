@@ -1,8 +1,8 @@
 var mysql = require("mysql");
 
-if (process.env.ClearDB_URL) {
+if (process.env.CLEARDB_DATABASE_URL) {
     // DB is JawsDB on Heroku
-    connection = mysql.createConnection(process.env.Cleardb_URL);
+    connection = mysql.createConnection(process.env.CLEARDB_DATABASE_URL);
 } else {
     var connection = mysql.createConnection({
         host: "us-cdbr-east-02.cleardb.com",

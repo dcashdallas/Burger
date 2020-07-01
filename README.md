@@ -1,5 +1,8 @@
 
 <h1 align="center">Beefsquatch's Burger of the Day</h1>
+
+![Beefsquatch in action](https://github.com/dcashdallas/Burger/blob/master/public/assets/images/beefsquatchbodinaction.gif?raw=true)
+<hr>
   ## Description
 
   An application using node.js, express-handlebars & mysql deployed throught Heroku. Select a burger to "squatch" and add your own burger of the day!

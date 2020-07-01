@@ -24,6 +24,12 @@ app.use('/', router);
 app.set("port", (process.env.PORT || 3000));
 
 // app.use('/', routes);
-app.listen(app.get("port"), function () {
-    console.log("You are running on port", app.get("port"));
+// app.listen(app.get("port"), function () {
+//     console.log("You are running on port", app.get("port"));
+// });
+
+db.sequelize.sync({ force: true }).then(function () {
+    app.listen(PORT, function () {
+        console.log("App listening on PORT " + PORT);
+    });
 });

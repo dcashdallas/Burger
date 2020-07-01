@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
 });
 
 // Make connection.
-connection.connect(await)
+connection.connect()
 
 // Export connection for our ORM to use.
 module.exports = connection;

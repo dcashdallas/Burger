@@ -18,12 +18,11 @@ app.use('/', router);
 
 
 
-// var port = process.env.PORT || 3207;
-// app.listen(port);
+
 
 app.set("port", (process.env.PORT || 2001));
 
-// app.use('/', routes);
+
 app.listen(app.get("port"), function () {
     console.log("You are running on port", app.get("port"));
 });

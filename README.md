@@ -3,7 +3,7 @@
 
 ![Beefsquatch in action](https://github.com/dcashdallas/Burger/blob/master/public/assets/images/beefsquatchbodinaction.gif?raw=true)
 <hr>
-  ## Description
+  ## Description<br>
 
   An application using node.js, express-handlebars & mysql deployed through Heroku. Select a burger to "squatch" and add your own burger of the day! Heroku application URL: https://fierce-ocean-03684.herokuapp.com/index 
   ## Table of Contents<br>

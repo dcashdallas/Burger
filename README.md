@@ -5,7 +5,7 @@
 <hr>
   ## Description
 
-  An application using node.js, express-handlebars & mysql deployed throught Heroku. Select a burger to "squatch" and add your own burger of the day!
+  An application using node.js, express-handlebars & mysql deployed through Heroku. Select a burger to "squatch" and add your own burger of the day!
   ## Table of Contents<br>
   **[Installation](#Installation)**<br>
   **[Usage](#Usage)**<br>

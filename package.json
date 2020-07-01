@@ -24,6 +24,7 @@
     "loader": "^2.1.1",
     "method-override": "^2.3.10",
     "mysql": "^2.18.1",
+    "sequelize": "^6.2.3",
     "server": "^1.0.29",
     "stack": "^0.1.0"
   }

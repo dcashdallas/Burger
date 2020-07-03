@@ -17,7 +17,7 @@
   ## **Installation Process**<br>  
   Deployed via Heroku
   ## **Usage**<br>
-  An application using node.js, express-handlebars & mysql deployed throught Heroku. Select a burger to "squatch" and add your own burger of the day!
+  An application using node.js, express-handlebars & mysql deployed through Heroku. Select a burger to "squatch" and add your own burger of the day!
   ## **License**<br>
   mit
   ## **Additional Contributors**<br>
